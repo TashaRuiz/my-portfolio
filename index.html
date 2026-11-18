@@ -1,385 +1,123 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Tasha Arroyo - Software Engineer, Designer and Creative Developer.">
-
-    <meta name="author" content="Tasha Arroyo">
-
-    <title>Tasha Arroyo | Software Engineer</title>
-
-    <!-- Website stylesheet -->
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tasha Ruiz — aspiring Full-Stack Software Engineer studying at Holberton School Puerto Rico." />
+  <meta name="theme-color" content="#090b14" />
+  <title>Tasha Ruiz | Full-Stack Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-
-    <!-- ================= HEADER ================= -->
-    <header class="header">
-        <nav class="navbar">
-
-            <a href="#home" class="logo">
-                Tasha<span>.dev</span>
-            </a>
-
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            <button
-                class="theme-toggle"
-                id="theme-toggle"
-                type="button"
-                aria-label="Switch to dark theme"
-                aria-pressed="false"
-            >
-                ☾
-            </button>
-
-        </nav>
-    </header>
-
-
-    <main>
-
-        <!-- ================= HERO ================= -->
-        <section class="hero" id="home">
-
-            <div class="hero-content">
-
-                <p class="hero-subtitle">
-                    ✦ Welcome to my creative world ✦
-                </p>
-
-                <h1>
-                    Hello, I'm <span>Tasha Arroyo</span>
-                </h1>
-
-                <h2>
-                    Software Engineer & Creative Designer
-                </h2>
-
-                <p class="hero-description">
-                    I love creating, designing and bringing ideas to life.
-                    I'm exploring the world of software engineering,
-                    combining creativity and technology to build websites,
-                    develop games and solve real-world problems.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#projects" class="button primary-button">
-                        Explore My Work
-                    </a>
-
-                    <a href="#contact" class="button secondary-button">
-                        Contact Me
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="hero-decoration" aria-hidden="true">
-                <span class="pixel-star">✦</span>
-                <span class="pixel-star">✧</span>
-                <span class="pixel-star">✦</span>
-            </div>
-
-        </section>
-
-
-        <!-- ================= ABOUT ================= -->
-        <section class="about section" id="about">
-
-            <div class="section-heading">
-                <p class="section-label">Get to know me</p>
-                <h2>About Me</h2>
-            </div>
-
-            <div class="about-content">
-
-                <div class="about-text">
-
-                    <h3>A creative mind learning to build.</h3>
-
-                    <p>
-                        I'm a designer who loves creating and exploring
-                        new ideas. I believe creativity and technology
-                        can work together to create meaningful experiences.
-                    </p>
-
-                    <p>
-                        I'm currently learning software engineering
-                        at Holberton School in Puerto Rico, developing
-                        my programming skills and discovering new ways
-                        to solve problems through code.
-                    </p>
-
-                    <p>
-                        My goal is to combine my creative background
-                        with software engineering to build websites,
-                        video games and useful digital experiences.
-                    </p>
-
-                </div>
-
-                <div class="about-card">
-
-                    <span class="about-icon" aria-hidden="true">✧</span>
-
-                    <h3>My Journey</h3>
-
-                    <p>
-                        Learning, creating and improving one project
-                        at a time.
-                    </p>
-
-                    <span class="about-tag">
-                        Holberton School · Puerto Rico
-                    </span>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= SKILLS ================= -->
-        <section class="skills section" id="skills">
-
-            <div class="section-heading">
-                <p class="section-label">What I'm learning</p>
-                <h2>My Skills</h2>
-            </div>
-
-            <p class="section-description">
-                Programming languages and tools I'm exploring
-                throughout my software engineering journey.
-            </p>
-
-            <div class="skills-grid">
-
-                <article class="skill-card">
-                    <span class="skill-icon">C</span>
-                    <h3>C</h3>
-                </article>
-
-                <article class="skill-card">
-                    <span class="skill-icon">C++</span>
-                    <h3>C++</h3>
-                </article>
-
-                <article class="skill-card">
-                    <span class="skill-icon">Py</span>
-                    <h3>Python</h3>
-                </article>
-
-                <article class="skill-card">
-                    <span class="skill-icon">D</span>
-                    <h3>Dart</h3>
-                </article>
-
-                <article class="skill-card">
-                    <span class="skill-icon">B</span>
-                    <h3>Blueprints</h3>
-                </article>
-
-            </div>
-
-            <p class="skills-note">
-                Always learning and expanding my technical knowledge.
-            </p>
-
-        </section>
-
-
-        <!-- ================= PROJECTS ================= -->
-        <section class="projects section" id="projects">
-
-            <div class="section-heading">
-                <p class="section-label">Things I've been building</p>
-                <h2>My Projects</h2>
-            </div>
-
-            <p class="section-description">
-                A collection of programming exercises and projects
-                from my software engineering journey.
-            </p>
-
-            <div class="projects-grid">
-
-                <!-- Project 1 -->
-                <article class="project-card">
-
-                    <div class="project-image project-image-c">
-                        <span aria-hidden="true">&lt;C&gt;</span>
-                    </div>
-
-                    <div class="project-content">
-
-                        <span class="project-category">
-                            C Programming
-                        </span>
-
-                        <h3>C Programming Projects</h3>
-
-                        <p>
-                            Programming exercises exploring C,
-                            memory management, algorithms and
-                            fundamental software engineering concepts.
-                        </p>
-
-                        <span class="project-status">
-                            Holberton School coursework
-                        </span>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Project 2 -->
-                <article class="project-card">
-
-                    <div class="project-image project-image-python">
-                        <span aria-hidden="true">Py</span>
-                    </div>
-
-                    <div class="project-content">
-
-                        <span class="project-category">
-                            Python Programming
-                        </span>
-
-                        <h3>Python Projects</h3>
-
-                        <p>
-                            Programming exercises focused on
-                            problem-solving, logic, programming
-                            fundamentals and building applications.
-                        </p>
-
-                        <span class="project-status">
-                            Holberton School coursework
-                        </span>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Future projects -->
-                <article class="project-card future-project">
-
-                    <div class="project-image project-image-game">
-                        <span aria-hidden="true">✧</span>
-                    </div>
-
-                    <div class="project-content">
-
-                        <span class="project-category">
-                            Future Project
-                        </span>
-
-                        <h3>Game Development</h3>
-
-                        <p>
-                            A future space to showcase creative
-                            experiments and video game development
-                            projects as I continue learning.
-                        </p>
-
-                        <span class="project-status">
-                            Planned
-                        </span>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CONTACT ================= -->
-        <section class="contact section" id="contact">
-
-            <div class="section-heading">
-                <p class="section-label">Let's connect</p>
-                <h2>Contact Me</h2>
-            </div>
-
-            <p class="contact-description">
-                Have an interesting project or opportunity?
-                I'd love to connect, share ideas and learn
-                about what you're creating.
-            </p>
-
-            <div class="contact-links">
-
-                <a
-                    href="mailto:ruiztasha25@gmail.com"
-                    class="contact-card"
-                >
-                    <span aria-hidden="true">✉</span>
-                    <div>
-                        <h3>Email</h3>
-                        <p>ruiztasha25@gmail.com</p>
-                    </div>
-                </a>
-
-                <a
-                    href="https://www.linkedin.com/in/tasha-ruiz-bb6119189?trk=contact-info"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="contact-card"
-                >
-                    <span aria-hidden="true">in</span>
-                    <div>
-                        <h3>LinkedIn</h3>
-                        <p>Connect with me professionally</p>
-                    </div>
-                </a>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-
-        <p>
-            Made with creativity and code by
-            <span>Tasha Arroyo</span>
-        </p>
-
-        <p class="footer-decoration">
-            ✦ Keep creating. Keep learning. ✦
-        </p>
-
-        <p class="copyright">
-            &copy; <span id="current-year">2026</span>
-            Tasha Arroyo. All rights reserved.
-        </p>
-
-    </footer>
-
-
-    <!-- Website JavaScript -->
-    <script src="js/script.js"></script>
-
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">TASHA<span>.DEV</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a class="nav-contact" href="#contact">Let's connect <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> LEARNING · BUILDING · GROWING</div>
+        <p class="intro">Hello, world! I'm</p>
+        <h1>Tasha <span>Ruiz.</span></h1>
+        <h2>Aspiring <span class="gradient-text">Full-Stack<br class="desktop-break" /> Software Engineer</span></h2>
+        <p class="hero-description">I turn curiosity into code and ideas into experiences. I'm studying Software Engineering at Holberton School Puerto Rico and building my skills one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/tasha-ruiz-bb6119189/" target="_blank" rel="noreferrer">Connect with me</a>
+        </div>
+        <div class="hero-meta"><span>📍 Puerto Rico</span><span>🎓 Holberton School</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="window-bar"><i></i><i></i><i></i><span>developer.py</span></div>
+          <pre><code><span class="code-purple">class</span> <span class="code-blue">Developer</span>:
+  name = <span class="code-green">"Tasha Ruiz"</span>
+  role = <span class="code-green">"Full-Stack Engineer"</span>
+
+  <span class="code-purple">def</span> <span class="code-blue">keep_learning</span>(self):
+    <span class="code-purple">while</span> <span class="code-orange">True</span>:
+      learn()
+      build()
+      improve()</code></pre>
+          <div class="code-footer"><span class="pulse"></span> Always building something</div>
+        </div>
+        <div class="floating-chip chip-one">&lt;/&gt; <span>Code</span></div>
+        <div class="floating-chip chip-two">✦ <span>Create</span></div>
+        <div class="floating-chip chip-three">{ } <span>Build</span></div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="section-kicker">01 / ABOUT ME</p><h2>A little about <span class="gradient-text">my journey.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy panel">
+          <p class="lead">I'm a software engineering student with a passion for understanding how things work — and making them work better.</p>
+          <p>At <strong>Holberton School Puerto Rico</strong>, I'm building a strong foundation in programming, problem-solving, algorithms, web technologies, APIs, and databases.</p>
+          <p>I enjoy learning by doing: taking on challenging assignments, debugging what doesn't work, and turning each lesson into something practical. My long-term goal is to grow into a well-rounded Full-Stack Software Engineer.</p>
+          <a class="text-link" href="https://github.com/TashaRuiz" target="_blank" rel="noreferrer">Explore my GitHub <span>↗</span></a>
+        </div>
+        <div class="about-facts">
+          <div class="fact-card"><span class="fact-icon">⌘</span><div><h3>Problem solver</h3><p>I enjoy breaking complex challenges into manageable steps.</p></div></div>
+          <div class="fact-card"><span class="fact-icon">✧</span><div><h3>Curious by nature</h3><p>Always exploring tools, concepts, and better ways to build.</p></div></div>
+          <div class="fact-card"><span class="fact-icon">⌁</span><div><h3>Learning in public</h3><p>Documenting my progress through projects and code.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><p class="section-kicker">02 / TECH STACK</p><h2>Tools I'm learning <span class="gradient-text">to build with.</span></h2><p class="section-subtitle">My current toolkit is growing as I learn and take on new challenges.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-symbol purple">C</div><h3>Programming</h3><p>C · Python · Shell</p><span class="skill-note">Core programming & problem-solving</span></article>
+        <article class="skill-card"><div class="skill-symbol blue">&lt;/&gt;</div><h3>Frontend</h3><p>HTML · CSS</p><span class="skill-note">Web structure & styling</span></article>
+        <article class="skill-card"><div class="skill-symbol pink">{ }</div><h3>Backend & APIs</h3><p>Python · REST APIs · JSON</p><span class="skill-note">Application logic & data exchange</span></article>
+        <article class="skill-card"><div class="skill-symbol cyan">▤</div><h3>Data</h3><p>SQL · Relational databases</p><span class="skill-note">Queries & data organization</span></article>
+        <article class="skill-card"><div class="skill-symbol orange">⌘</div><h3>Developer tools</h3><p>Git · GitHub · VS Code</p><span class="skill-note">Version control & workflow</span></article>
+        <article class="skill-card learning-card"><div class="skill-symbol violet">✦</div><h3>Always learning</h3><p>New concepts · New projects</p><span class="skill-note">The toolkit never stops growing</span></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="section-kicker">03 / SELECTED WORK</p><h2>Things I've been <span class="gradient-text">building.</span></h2><p class="section-subtitle">A few highlights from my software engineering learning journey.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured"><div class="project-top"><span class="project-index">PROJECT_01</span><span class="project-type">SYSTEMS / C</span></div><div class="project-visual shell-visual"><span class="terminal-mark">$_</span><div class="terminal-lines"><i></i><i></i><i></i></div></div><h3>Simple Shell</h3><p>A custom UNIX command-line interpreter exploring processes, command execution, PATH resolution, and environment variables.</p><div class="tags"><span>C</span><span>Linux</span><span>Shell</span><span>System calls</span></div><a class="project-link" href="https://github.com/TashaRuiz?tab=repositories" target="_blank" rel="noreferrer">Find it on GitHub <span>↗</span></a></article>
+        <article class="project-card"><div class="project-top"><span class="project-index">PROJECT_02</span><span class="project-type">BACKEND / API</span></div><div class="project-visual hbnb-visual"><div class="hbnb-window"><b>HBnB</b><span></span><span></span><span></span></div><div class="hbnb-orb"></div></div><h3>HBnB</h3><p>A web application project focused on layered architecture, business logic, REST API design, and data relationships.</p><div class="tags"><span>Python</span><span>REST API</span><span>SQL</span><span>JSON</span></div><a class="project-link" href="https://github.com/TashaRuiz?tab=repositories" target="_blank" rel="noreferrer">Find it on GitHub <span>↗</span></a></article>
+      </div>
+      <p class="projects-footnote">More projects will be added as I continue learning and building.</p>
+    </section>
+
+    <section class="section container" id="journey">
+      <div class="section-heading"><p class="section-kicker">04 / THE ROAD AHEAD</p><h2>Learning today. <span class="gradient-text">Building tomorrow.</span></h2></div>
+      <div class="journey-panel">
+        <div class="journey-item"><span class="journey-dot"></span><div><span class="journey-label">FOUNDATIONS</span><h3>Shell, Linux & C programming</h3><p>Building confidence with the command line, memory, pointers, and system fundamentals.</p></div></div>
+        <div class="journey-item"><span class="journey-dot"></span><div><span class="journey-label">PROBLEM SOLVING</span><h3>Algorithms & data structures</h3><p>Learning to think through problems and write clear, effective solutions.</p></div></div>
+        <div class="journey-item"><span class="journey-dot"></span><div><span class="journey-label">APPLICATION DEVELOPMENT</span><h3>Python, APIs & databases</h3><p>Exploring backend logic, HTTP, JSON, SQL, and application architecture.</p></div></div>
+        <div class="journey-item"><span class="journey-dot"></span><div><span class="journey-label">NEXT CHAPTER</span><h3>Growing into Full-Stack Development</h3><p>Bringing frontend and backend skills together to create complete applications.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-card"><p class="section-kicker">05 / GET IN TOUCH</p><h2>Have an idea? <span class="gradient-text">Let's connect.</span></h2><p>I'm always happy to connect with fellow developers, learners, and people who love building things with technology.</p><div class="hero-actions"><a class="button button-primary" href="https://www.linkedin.com/in/tasha-ruiz-bb6119189/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a><a class="button button-secondary" href="https://github.com/TashaRuiz" target="_blank" rel="noreferrer">Visit my GitHub ↗</a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home">TASHA<span>.DEV</span></a><p>Designed & built with curiosity in Puerto Rico 🇵🇷</p><span>© <span id="year"></span> Tasha Ruiz</span></footer>
 </body>
 </html>
